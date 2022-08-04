@@ -10,6 +10,10 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
   public partial class SortedAction<TKey> : SortedList<TKey, Action> { }
 
   /// <summary>
@@ -17,21 +21,30 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T">The type of the parameter of the method that this
-  /// delegate encapsulates.</typeparam>
-  public partial class SortedAction<TKey, T> : SortedList<TKey, Action<T>> { }
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  public partial class SortedAction<TKey, T1> : SortedList<TKey, Action<T1>> { }
 
   /// <summary>
   /// An alias for SortedList&lt;TKey, <see cref="Action{T1, T2}"/>&gt;.
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2>
     : SortedList<TKey, Action<T1, T2>>
   { }
@@ -41,13 +54,19 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3>
     : SortedList<TKey, Action<T1, T2, T3>>
   { }
@@ -57,15 +76,22 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4>
     : SortedList<TKey, Action<T1, T2, T3, T4>>
   { }
@@ -75,17 +101,25 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5>>
   { }
@@ -95,19 +129,28 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6>>
   { }
@@ -117,21 +160,31 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7>>
   { }
@@ -141,23 +194,34 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8>>
   { }
@@ -167,25 +231,37 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T9">The type of the ninth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
+  /// <typeparam name="T9">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T9']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9>>
   { }
@@ -195,27 +271,40 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T9">The type of the ninth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T10">The type of the tenth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
+  /// <typeparam name="T9">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T9']"/></typeparam>
+  /// <typeparam name="T10">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T10']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>>
   { }
@@ -225,29 +314,43 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T9">The type of the ninth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T10">The type of the tenth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T11">The type of the eleventh parameter of the method
-  /// that this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
+  /// <typeparam name="T9">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T9']"/></typeparam>
+  /// <typeparam name="T10">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T10']"/></typeparam>
+  /// <typeparam name="T11">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T11']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>>
   { }
@@ -257,31 +360,46 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T9">The type of the ninth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T10">The type of the tenth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T11">The type of the eleventh parameter of the method
-  /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T12">The type of the twelfth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
+  /// <typeparam name="T9">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T9']"/></typeparam>
+  /// <typeparam name="T10">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T10']"/></typeparam>
+  /// <typeparam name="T11">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T11']"/></typeparam>
+  /// <typeparam name="T12">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T12']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>>
   { }
@@ -291,33 +409,49 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T9">The type of the ninth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T10">The type of the tenth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T11">The type of the eleventh parameter of the method
-  /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T12">The type of the twelfth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T13">The type of the thirteenth parameter of the method
-  /// that this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
+  /// <typeparam name="T9">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T9']"/></typeparam>
+  /// <typeparam name="T10">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T10']"/></typeparam>
+  /// <typeparam name="T11">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T11']"/></typeparam>
+  /// <typeparam name="T12">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T12']"/></typeparam>
+  /// <typeparam name="T13">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T13']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>>
   { }
@@ -327,35 +461,52 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T9">The type of the ninth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T10">The type of the tenth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T11">The type of the eleventh parameter of the method
-  /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T12">The type of the twelfth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T13">The type of the thirteenth parameter of the method
-  /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T14">The type of the fourteenrth parameter of the method
-  /// that this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
+  /// <typeparam name="T9">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T9']"/></typeparam>
+  /// <typeparam name="T10">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T10']"/></typeparam>
+  /// <typeparam name="T11">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T11']"/></typeparam>
+  /// <typeparam name="T12">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T12']"/></typeparam>
+  /// <typeparam name="T13">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T13']"/></typeparam>
+  /// <typeparam name="T14">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T14']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>>
   { }
@@ -365,37 +516,55 @@ namespace CLSS
   /// A SortedAction can be treated as a delegate that lets you control the 
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
-  /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T2">The type of the second parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T3">The type of the third parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T4">The type of the fourth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T5">The type of the fifth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T6">The type of the sixth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T7">The type of the seventh parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T8">The type of the eighth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T9">The type of the ninth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T10">The type of the tenth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T11">The type of the eleventh parameter of the method
-  /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T12">The type of the twelfth parameter of the method that
-  /// this delegate encapsulates.</typeparam>
-  /// <typeparam name="T13">The type of the thirteenth parameter of the method
-  /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T14">The type of the fourteenrth parameter of the method
-  /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T15">The type of the fifteenth parameter of the method
-  /// that this delegate encapsulates.</typeparam>
+  /// <typeparam name="TKey">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='TKey']"/>
+  /// </typeparam>
+  /// <typeparam name="T1">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T1']"/></typeparam>
+  /// <typeparam name="T2">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T2']"/></typeparam>
+  /// <typeparam name="T3">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T3']"/></typeparam>
+  /// <typeparam name="T4">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T4']"/></typeparam>
+  /// <typeparam name="T5">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T5']"/></typeparam>
+  /// <typeparam name="T6">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T6']"/></typeparam>
+  /// <typeparam name="T7">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T7']"/></typeparam>
+  /// <typeparam name="T8">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T8']"/></typeparam>
+  /// <typeparam name="T9">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T9']"/></typeparam>
+  /// <typeparam name="T10">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T10']"/></typeparam>
+  /// <typeparam name="T11">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T11']"/></typeparam>
+  /// <typeparam name="T12">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T12']"/></typeparam>
+  /// <typeparam name="T13">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T13']"/></typeparam>
+  /// <typeparam name="T14">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T14']"/></typeparam>
+  /// <typeparam name="T15">
+  /// <inheritdoc cref="SortedAction{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}"
+  /// path="/typeparam[@name='T15']"/></typeparam>
   public partial class SortedAction<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
     : SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>>
   { }
@@ -406,8 +575,8 @@ namespace CLSS
   /// order-of-execution of its callbacks through their associated keys.
   /// </summary>
   /// <typeparam name="TKey">The key type used to sort actions.</typeparam>
-  /// <typeparam name="T1">The type of the first parameter of the method that
-  /// this delegate encapsulates.</typeparam>
+  /// <typeparam name="T1">The type of the parameter of the method that this
+  /// delegate encapsulates.</typeparam>
   /// <typeparam name="T2">The type of the second parameter of the method that
   /// this delegate encapsulates.</typeparam>
   /// <typeparam name="T3">The type of the third parameter of the method that
@@ -432,7 +601,7 @@ namespace CLSS
   /// this delegate encapsulates.</typeparam>
   /// <typeparam name="T13">The type of the thirteenth parameter of the method
   /// that this delegate encapsulates.</typeparam>
-  /// <typeparam name="T14">The type of the fourteenrth parameter of the method
+  /// <typeparam name="T14">The type of the fourteenth parameter of the method
   /// that this delegate encapsulates.</typeparam>
   /// <typeparam name="T15">The type of the fifteenth parameter of the method
   /// that this delegate encapsulates.</typeparam>
@@ -444,38 +613,17 @@ namespace CLSS
 
   public static partial class ExtensionMethods
   {
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey>(this SortedList<TKey, Action> source)
     { foreach (var p in source) p.Value(); }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg">The 1st argument for the contained actions.</param>
-    public static void Invoke<TKey, T>(
-      this SortedList<TKey, Action<T>> source,
-      T arg)
-    { foreach (var p in source) p.Value(arg); }
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
+    public static void Invoke<TKey, T1>(
+      this SortedList<TKey, Action<T1>> source,
+      T1 arg1)
+    { foreach (var p in source) p.Value(arg1); }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2>(
       this SortedList<TKey, Action<T1, T2>> source,
       T1 arg1,
@@ -485,20 +633,7 @@ namespace CLSS
         arg2);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3>(
       this SortedList<TKey, Action<T1, T2, T3>> source,
       T1 arg1,
@@ -510,23 +645,7 @@ namespace CLSS
         arg3);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4>(
       this SortedList<TKey, Action<T1, T2, T3, T4>> source,
       T1 arg1,
@@ -540,26 +659,7 @@ namespace CLSS
         arg4);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5>> source,
       T1 arg1,
@@ -575,29 +675,7 @@ namespace CLSS
         arg5);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6>> source,
       T1 arg1,
@@ -615,32 +693,7 @@ namespace CLSS
         arg6);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7>> source,
       T1 arg1,
@@ -660,35 +713,7 @@ namespace CLSS
         arg7);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8>> source,
       T1 arg1,
@@ -710,38 +735,7 @@ namespace CLSS
         arg8);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T9">The type of the 9th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
-    /// <param name="arg9">The 9th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9>> source,
       T1 arg1,
@@ -765,41 +759,7 @@ namespace CLSS
         arg9);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T9">The type of the 9th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T10">The type of the 10th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
-    /// <param name="arg9">The 9th argument for the contained actions.</param>
-    /// <param name="arg10">The 10th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>> source,
       T1 arg1,
@@ -825,44 +785,7 @@ namespace CLSS
         arg10);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T9">The type of the 9th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T10">The type of the 10th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T11">The type of the 11th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
-    /// <param name="arg9">The 9th argument for the contained actions.</param>
-    /// <param name="arg10">The 10th argument for the contained actions.</param>
-    /// <param name="arg11">The 11th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>> source,
       T1 arg1,
@@ -890,47 +813,7 @@ namespace CLSS
         arg11);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T9">The type of the 9th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T10">The type of the 10th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T11">The type of the 11th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T12">The type of the 12th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
-    /// <param name="arg9">The 9th argument for the contained actions.</param>
-    /// <param name="arg10">The 10th argument for the contained actions.</param>
-    /// <param name="arg11">The 11th argument for the contained actions.</param>
-    /// <param name="arg12">The 12th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>> source,
       T1 arg1,
@@ -960,50 +843,7 @@ namespace CLSS
         arg12);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T9">The type of the 9th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T10">The type of the 10th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T11">The type of the 11th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T12">The type of the 12th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T13">The type of the 13th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
-    /// <param name="arg9">The 9th argument for the contained actions.</param>
-    /// <param name="arg10">The 10th argument for the contained actions.</param>
-    /// <param name="arg11">The 11th argument for the contained actions.</param>
-    /// <param name="arg12">The 12th argument for the contained actions.</param>
-    /// <param name="arg13">The 13th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>> source,
       T1 arg1,
@@ -1035,53 +875,7 @@ namespace CLSS
         arg13);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T9">The type of the 9th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T10">The type of the 10th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T11">The type of the 11th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T12">The type of the 12th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T13">The type of the 13th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T14">The type of the 14th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
-    /// <param name="arg9">The 9th argument for the contained actions.</param>
-    /// <param name="arg10">The 10th argument for the contained actions.</param>
-    /// <param name="arg11">The 11th argument for the contained actions.</param>
-    /// <param name="arg12">The 12th argument for the contained actions.</param>
-    /// <param name="arg13">The 13th argument for the contained actions.</param>
-    /// <param name="arg14">The 14th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>> source,
       T1 arg1,
@@ -1115,56 +909,7 @@ namespace CLSS
         arg14);
     }
 
-    /// <summary>
-    /// Invokes the contained actions in the ascending order of their keys.
-    /// </summary>
-    /// <typeparam name="TKey">The type of key used to sort actions.</typeparam>
-    /// <typeparam name="T1">The type of the 1st argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T2">The type of the 2nd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T3">The type of the 3rd argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T4">The type of the 4th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T6">The type of the 6th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T7">The type of the 7th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T8">The type of the 8th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T9">The type of the 9th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T10">The type of the 10th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T11">The type of the 11th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T12">The type of the 12th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T13">The type of the 13th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T14">The type of the 14th argument of the contained
-    /// actions.</typeparam>
-    /// <typeparam name="T15">The type of the 15th argument of the contained
-    /// actions.</typeparam>
-    /// <param name="source">The collection of actions to be invoked.</param>
-    /// <param name="arg1">The 1st argument for the contained actions.</param>
-    /// <param name="arg2">The 2nd argument for the contained actions.</param>
-    /// <param name="arg3">The 3rd argument for the contained actions.</param>
-    /// <param name="arg4">The 4th argument for the contained actions.</param>
-    /// <param name="arg5">The 5th argument for the contained actions.</param>
-    /// <param name="arg6">The 6th argument for the contained actions.</param>
-    /// <param name="arg7">The 7th argument for the contained actions.</param>
-    /// <param name="arg8">The 8th argument for the contained actions.</param>
-    /// <param name="arg9">The 9th argument for the contained actions.</param>
-    /// <param name="arg10">The 10th argument for the contained actions.</param>
-    /// <param name="arg11">The 11th argument for the contained actions.</param>
-    /// <param name="arg12">The 12th argument for the contained actions.</param>
-    /// <param name="arg13">The 13th argument for the contained actions.</param>
-    /// <param name="arg14">The 14th argument for the contained actions.</param>
-    /// <param name="arg15">The 15th argument for the contained actions.</param>
+    /// <inheritdoc cref="Invoke{TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}(SortedList{TKey, Action{T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16}}, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)"/>
     public static void Invoke<TKey, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(
       this SortedList<TKey, Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>> source,
       T1 arg1,
@@ -1212,7 +957,7 @@ namespace CLSS
     /// actions.</typeparam>
     /// <typeparam name="T4">The type of the 4th argument of the contained
     /// actions.</typeparam>
-    /// <typeparam name="T5">The type of the 5th argument of the contained
+    /// <typeparam name="T5">The type of the 4th argument of the contained
     /// actions.</typeparam>
     /// <typeparam name="T6">The type of the 6th argument of the contained
     /// actions.</typeparam>
