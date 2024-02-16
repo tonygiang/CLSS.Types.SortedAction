@@ -16,7 +16,7 @@ When you declare a `SortedAction` instance, the first type to give it is the key
 
 **Example**:
 
-```
+```csharp
 using CLSS;
 
 var OnEvent = new SortedAction<byte, int, string>();
